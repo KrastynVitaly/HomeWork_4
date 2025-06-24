@@ -158,6 +158,7 @@ public class Main {
             for (int i = 0; i < size; i++) {
                 newArray[i] = Character.getNumericValue(charArray[i]);
             }
+            System.out.println("Массив + 1:");
             for (int i = 0; i < size; i++) {
                 System.out.print(newArray[i] + " ");
             }
@@ -165,6 +166,7 @@ public class Main {
             for (int i = 0; i < size; i++) {
                 array[i] = Character.getNumericValue(charArray[i]);
             }
+            System.out.println("Массив + 1:");
             for (int i = 0; i < size; i++) {
                 System.out.print(array[i] + " ");
             }
