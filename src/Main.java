@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -135,7 +136,48 @@ public class Main {
 //      // добавить единицу к этому “числу” и на выходе получить исправленный массив. Массив не
 //      // содержит нуля в начале, кроме самого числа 0.
 //__________________________________________________________________________________________
-//        Пока нет решения
-        scanner.close();
+        //пока не работает
+/*        //Переводим массив в число
+        int countOf9 = 0;
+        for (int i = 0; i <= array.length - 1; i++) {
+            if (array[i] == 9) {
+                countOf9++;
+            }
+        }
+        int number = 0;
+        int base = 10;
+        for (int i = 0; i < size; i++) {
+            number = base * number + array[i];
+        }
+        String numberString = Integer.toString(number);
+        number++;
+        System.out.println(number);
+        char[] charArray = numberString.toCharArray();
+
+//        if (countOf9 == array.length) {
+//            size = countOf9 + 1;
+//            int[] newArray = new int[size];
+//
+//            for (int i = 0; i < size; i++) {
+//                newArray[i] = Character.getNumericValue(charArray[i]);
+//            }
+//            for (int i = 0; i < size; i++) {
+//                System.out.print(newArray[i] + " ");
+//            }
+//        } else {
+            for (int i = 0; i < size; i++) {
+                array[i] = Character.getNumericValue(charArray[i]);
+            }
+            for (int i = 0; i < size; i++) {
+                System.out.print(array[i] + " ");
+            }
+//        }
+            scanner.close();
+        }*/
+
     }
 }
+
+
+
+
